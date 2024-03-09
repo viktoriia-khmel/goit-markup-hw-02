@@ -1,7 +1,7 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #fff;
 }
 a {
   text-decoration: none;
@@ -20,7 +20,7 @@ ul {
 }
 .title {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -33,12 +33,16 @@ ul {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .button:hover {
   background-color: #404bbf;
 }
-.nav > li > a {
+.button:focus {
+  background-color: #404bbf;
+}
+.nav-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -61,13 +65,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -121,9 +124,10 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: #f4f4fd;
 }
-.nav > li > a:hover {
+.nav-list:hover {
   color: #404bbf;
 }
 .email:hover {
@@ -131,4 +135,13 @@ ul {
 }
 .phone:hover {
   color: #404bbf;
+}
+.email:focus {
+  color: #404bbf;
+}
+.phone:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
 }
