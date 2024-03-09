@@ -52,20 +52,13 @@ ul {
 .header {
   background-color: #fff;
 }
-.email {
+.address-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
-.phone {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -130,32 +123,28 @@ ul {
 .nav-list:hover {
   color: #404bbf;
 }
-.email:hover {
+.nav-list:focus {
   color: #404bbf;
 }
-.phone:hover {
+.address-text:hover {
   color: #404bbf;
 }
-.email:focus {
+
+.address-text:focus {
   color: #404bbf;
 }
-.phone:focus {
-  color: #404bbf;
-}
+
 .address {
   font-style: normal;
 }
-.section-team-title {
+.section-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-.section-portfolio-title {
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+.team-list {
+  background-color: #ffffff;
 }
